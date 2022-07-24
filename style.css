@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/restaurant.png");
+}
+
+h1, h2, h3, h4, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 700px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 25px 15px;
+    border-radius: 6px;
+}
+
+.text-input {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.from-text, .to-text {
+    width: 50%;
+    height: 150px;
+    outline: none;
+    resize: none;
+    background: none;
+    /*box-shadow: 0 0 10px rgba(0,0,0,0.5);*/
+    padding: 15px 10px;
+    font-size: 30px;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+}
+
+.btn {
+    display: block;
+    margin: 0 auto;
+    padding: 15px 22px;
+    border: none;
+    background-color: #685fa0;
+    color: wheat;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 17px;
+}
+
+.btn:hover {
+    background-color: #6763af;
+}
+
+.fas {
+    cursor: pointer;
+}
+
+.row select {
+    font-size: 20px;
+}
